@@ -1,0 +1,18 @@
+PROJETO PROFISSIONAL ÓTICA 083 COM PAINEL ADMINISTRATIVO
+
+Este projeto usa Netlify + Decap CMS.
+
+O modo arrastar pasta no Netlify Drop publica o site, mas NÃO ativa o painel /admin.
+Para editar armações pelo celular, publique conectado ao GitHub e ative Identity + Git Gateway no Netlify.
+
+Passo a passo:
+1. Crie conta no GitHub.
+2. Crie um repositório chamado otica083-site.
+3. Envie todos os arquivos deste projeto para o GitHub.
+4. No Netlify: Add new site > Import an existing project.
+5. Conecte o GitHub e escolha o repositório.
+6. Publique o site.
+7. No Netlify, ative Identity.
+8. Ative Git Gateway.
+9. Acesse: seusite.netlify.app/admin
+10. Adicione/edite armações pelo painel.
