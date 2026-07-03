@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+locale: "pt"
+collections:
+  - name: "catalogo"
+    label: "Catálogo de Armações"
+    files:
+      - name: "produtos"
+        label: "Produtos do catálogo"
+        file: "content/produtos.json"
+        fields:
+          - label: "Produtos"
+            name: "produtos"
+            widget: "list"
+            summary: "{{fields.nome}} - {{fields.categoria}}"
+            fields:
+              - { label: "Nome da armação", name: "nome", widget: "string" }
+              - label: "Categoria"
+                name: "categoria"
+                widget: "select"
+                options: ["Feminino", "Masculino", "Infantil", "TR90", "Premium"]
+              - { label: "Descrição", name: "descricao", widget: "text" }
+              - { label: "Preço", name: "preco", widget: "string", default: "Consulte", required: false }
+              - { label: "Destaque", name: "destaque", widget: "boolean", default: false }
+              - { label: "Foto da armação", name: "imagem", widget: "image", required: false }
+              - { label: "Mensagem do WhatsApp", name: "whatsapp", widget: "text", required: false }

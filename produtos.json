@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {"nome":"Armação Feminina Elegance","categoria":"Feminino","descricao":"Modelo sofisticado, leve e moderno para valorizar o rosto.","preco":"Consulte","destaque":true,"imagem":"","whatsapp":"Olá, tenho interesse na Armação Feminina Elegance da Ótica 083."},
+    {"nome":"Armação Feminina Casual","categoria":"Feminino","descricao":"Ideal para trabalho, estudo e rotina, com conforto e estilo.","preco":"Consulte","destaque":false,"imagem":"","whatsapp":"Olá, tenho interesse na Armação Feminina Casual da Ótica 083."},
+    {"nome":"Armação Masculina Executive","categoria":"Masculino","descricao":"Visual profissional, discreto e elegante para todos os momentos.","preco":"Consulte","destaque":true,"imagem":"","whatsapp":"Olá, tenho interesse na Armação Masculina Executive da Ótica 083."},
+    {"nome":"Armação Masculina Urban","categoria":"Masculino","descricao":"Conforto, resistência e estilo para uma rotina mais prática.","preco":"Consulte","destaque":false,"imagem":"","whatsapp":"Olá, tenho interesse na Armação Masculina Urban da Ótica 083."},
+    {"nome":"Armação Infantil Confort","categoria":"Infantil","descricao":"Leve, segura e confortável para crianças.","preco":"Consulte","destaque":false,"imagem":"","whatsapp":"Olá, tenho interesse em armação infantil da Ótica 083."},
+    {"nome":"Armação TR90 Flex","categoria":"TR90","descricao":"Leveza e resistência para uso diário.","preco":"Consulte","destaque":false,"imagem":"","whatsapp":"Olá, tenho interesse em armação TR90 da Ótica 083."}
+  ]
+}
