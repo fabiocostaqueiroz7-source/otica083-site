@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | Ótica 083</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+<main class="admin-wrap">
+<section class="admin-card">
+<img src="assets/logo-preta.png" alt="Ótica 083" class="admin-logo">
+<div id="login-area">
+<h1>Painel da Ótica 083</h1>
+<p>Entre para cadastrar, editar e remover armações do catálogo.</p>
+<label>E-mail</label><input id="email" type="email" placeholder="seuemail@gmail.com">
+<label>Senha</label><input id="senha" type="password" placeholder="Sua senha">
+<button class="admin-btn" id="btn-login">Entrar</button>
+<small>O login funciona depois que você configurar o Supabase.</small>
+</div>
+
+<div id="painel-area" class="oculto">
+<div class="admin-top"><div><h1>Catálogo de armações</h1><p>Cadastre modelos, fotos, categorias e valores.</p></div><button class="admin-btn sair" id="btn-sair">Sair</button></div>
+<form id="form-produto">
+<input type="hidden" id="produto-id">
+<label>Nome da armação</label><input id="nome" placeholder="Ex: Nina Laurent Elegance" required>
+<label>Categoria</label><select id="categoria-produto" required><option>Feminino</option><option>Masculino</option><option>Infantil</option><option>TR90</option><option>Premium</option><option>Solar</option></select>
+<label>Descrição</label><textarea id="descricao" placeholder="Descreva o modelo..." required></textarea>
+<label>Preço</label><input id="preco" placeholder="Ex: Consulte ou R$ 197,00">
+<label>Foto da armação</label><input id="foto" type="file" accept="image/*">
+<label class="check"><input id="destaque" type="checkbox"> Marcar como destaque</label>
+<button class="admin-btn" type="submit">Salvar armação</button>
+</form>
+<hr>
+<h2>Armações cadastradas</h2>
+<div id="lista-admin" class="lista-admin"></div>
+</div>
+</section>
+</main>
+<script src="config.js"></script>
+<script type="module" src="admin.js"></script>
+</body>
+</html>
