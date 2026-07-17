@@ -5,10 +5,10 @@ const produtosEl = document.getElementById("produtos");
 const buscaEl = document.getElementById("busca");
 const categoriaEl = document.getElementById("categoria");
 
-const url = window.SUPABASE_URL;
-const key = window.SUPABASE_ANON_KEY;
+const url = window.URL_SUPABASE;
+const chave = window.SUPABASE_ANON_KEY;
 
-const supabase = createClient(url, key);
+const supabase = createClient(url, chave);
 let produtos = [];
 
 async function carregarProdutos() {
